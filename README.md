@@ -26,7 +26,7 @@ By using this repository, you confirm that you comply with all **local laws and 
 
 ```bash
 git clone https://github.com/darkphantom-gamer/windows-reverse-shell
-cd safe-lab-sim
+cd windows-reverse-shell
 ```
 
 2. **Create a Python virtual environment (optional but recommended):**
