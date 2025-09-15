@@ -70,7 +70,7 @@ In a safe lab, this can be used to **simulate network routing and traffic analys
 
 ### Safe Lab Example Diagram
 
-![TCP Forwarding Lab Diagram](https://raw.githubusercontent.com/username/repo/main/images/tcp_forwarding.png)
+![TCP Forwarding Lab Diagram](raw.githubusercontent.com/darkphantom-gamer/windows-reverse-shell/refs/heads/main/tcp-forwarding.jpg)
 
 > The diagram illustrates how traffic flows between simulated attacker and victim hosts in an isolated environment.
 > All traffic remains local; nothing is transmitted over the Internet.
