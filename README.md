@@ -98,4 +98,4 @@ I will **not** be responsible for misuse.
 
 ## 📬 Contact
 
-For questions, responsible disclosure, or feedback, please contact: `<Your Email>`
+For questions, responsible disclosure, or feedback, please contact: `himkamal@mail.gainway.in`
