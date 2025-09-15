@@ -39,7 +39,7 @@ venv\Scripts\activate      # Windows
 
 ---
 
-## 🛠️ Usage (Safe Lab Simulation)
+## 🛠️ Usage
 
 1. **Simulate Python encoding workflow:**
 
